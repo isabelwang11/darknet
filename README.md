@@ -4,8 +4,7 @@
 Isabel Wang and Shivani Puli's Senior Research Project
 
 Get the COCO data into the 'data' directory:
-
-Follow the steps under the "Get The COCO Data" heading at https://pjreddie.com/darknet/yolo/.
+ * Follow the steps under the "Get The COCO Data" heading at https://pjreddie.com/darknet/yolo/.
 
 ## (neural networks for object detection)
 
