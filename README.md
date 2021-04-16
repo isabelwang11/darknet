@@ -1,5 +1,12 @@
 # Yolo v4, v3 and v2 for Windows and Linux
 
+## Custom YOLOv4 Pigeon Tracker
+Isabel Wang and Shivani Puli's Senior Research Project
+
+Get the COCO data into the 'data' directory:
+
+Follow the steps under the "Get The COCO Data" heading at https://pjreddie.com/darknet/yolo/.
+
 ## (neural networks for object detection)
 
 Paper YOLO v4: https://arxiv.org/abs/2004.10934
