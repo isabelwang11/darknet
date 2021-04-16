@@ -3,8 +3,13 @@
 ## Custom YOLOv4 Pigeon Tracker
 Isabel Wang and Shivani Puli's Senior Research Project
 
-Get the COCO data into the 'data' directory:
- * Follow the steps under the "Get The COCO Data" heading at https://pjreddie.com/darknet/yolo/.
+Once you have cloned this repository locally, follow these steps:
+ 1. Get the COCO data into the 'data' directory:
+   * Follow the steps under the "Get The COCO Data" heading at https://pjreddie.com/darknet/yolo/.
+ 2. Move the files from train/darknet/train/ to data/coco/images/train2014/ and data/coco/labels/train2014/
+   * If the file ends in .txt, it belongs in the labels folder, and if it ends in .jpg or .jpeg, it belongs in the images folder.
+   * The exception to this rule is the file called "classes.txt". Instead of moving this file, copy the pigeon label into the "coco.names" file under data/ and cfg/ and update the number of classes in the "coco.data" file under cfg/.
+   * Repeat step #2 for the files in valid/darknet/valid/ and move them to data/coco/images/valid2014/ and data/coco/labels/valid2014/.
 
 ## (neural networks for object detection)
 
